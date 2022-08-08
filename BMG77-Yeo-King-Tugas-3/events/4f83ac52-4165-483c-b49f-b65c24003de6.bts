@@ -1,0 +1,8 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetPartLineVelocity(lv = { x = 3.5, y = 0, z = 0 }, part = $part1)
+}
+
+PART_TOUCH_ENTITY_END {
+	SetPartLineVelocity(lv = { x = 0, y = 0, z = 0 }, part = $part1)
+	SetPartPosition(map = "map001", part = $part1, pos = { x = -7.222, y = 4.123, z = -1.759 })
+}

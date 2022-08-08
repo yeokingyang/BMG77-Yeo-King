@@ -1,0 +1,3 @@
+GAME_GO {
+	SetPartLineVelocity(lv = { x = 0, y = 0, z = 0 })
+}

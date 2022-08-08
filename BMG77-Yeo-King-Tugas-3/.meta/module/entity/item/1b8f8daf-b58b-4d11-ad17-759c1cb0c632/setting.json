@@ -1,0 +1,70 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "actorName": {
+      "asset": "asset/file/flag/flag.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canJump": false,
+    "canMove": false,
+    "checkPartTouchEvent": false,
+    "damage": 20,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "dropDamageStart": 10,
+    "equip": [
+      "1",
+      "2"
+    ],
+    "girlactor": {
+      "asset": "asset/file/flag/flag.actor"
+    },
+    "gravity": 1,
+    "isPlayer": true,
+    "maxHp": 100,
+    "name": {
+      "value": "2a9686a4-90fd-4824-978c-ba9ed28b8f27"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e477f2629a4f7f438efa7a69331b4a59",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

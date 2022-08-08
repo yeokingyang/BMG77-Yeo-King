@@ -1,0 +1,23 @@
+{
+  "data": {
+    "cdTime": {
+      "value": 40
+    },
+    "damage": 0,
+    "hurtDistance": 0.2,
+    "isLimit": true,
+    "name": {
+      "value": "skill_system_7d162687-5d3e-499d-b553-f3cce93d558a"
+    },
+    "preKillTime": {
+      "value": 60
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c2ba926e67b2e0e515934701f642b6db",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

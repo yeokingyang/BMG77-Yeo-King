@@ -1,0 +1,8 @@
+ENTITY_ENTER {
+	$obj1.mind = 1
+}
+
+ENTITY_DIE {
+	ReviveEntity(entity = $obj1, pos = { x = -3, y = 4, z = -58 })
+	ShowTip(entity = $obj1, keepTime = 60, textKey = "50d52085-6a2b-41f1-bfa3-88893c17f1ac", tipType = "1")
+}

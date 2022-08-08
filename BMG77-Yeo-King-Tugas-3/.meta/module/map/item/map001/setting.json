@@ -1,0 +1,634 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_left.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_right.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8745345020463054849",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8745345020570796033",
+        "ID": 2,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "83f4364b-49e1-4e58-8ed1-643524e7252a",
+            "density": 1.3,
+            "friction": 0.35,
+            "id": "8745345372506046465",
+            "massCenter": {
+              "x": -3.7859995365143,
+              "y": 1.4998962879181,
+              "z": -53.479011535645
+            },
+            "material": {
+              "texture": "part_caodi.tga"
+            },
+            "name": "Start",
+            "position": {
+              "x": -3.7859995365143,
+              "y": 1.4998962879181,
+              "z": -53.479011535645
+            },
+            "restitution": 0.1,
+            "scale": {
+              "x": 17.4927,
+              "y": 0.999983,
+              "z": 18.7498
+            },
+            "size": {
+              "x": 17.492692947388,
+              "y": 0.99998259544373,
+              "z": 18.749759674072
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d7e1ed8c-0281-4f44-8f80-61913b079ed2",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8745375378134712321",
+            "massCenter": {
+              "x": -3.9702639579773,
+              "y": 2.4998924732208,
+              "z": -44.595188140869
+            },
+            "material": {
+              "texture": "part_luanshi.tga"
+            },
+            "position": {
+              "x": -3.9702639579773,
+              "y": 2.4998924732208,
+              "z": -44.595188140869
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          }
+        ],
+        "id": "8747025774719451137",
+        "name": "Platform1"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "caf34b37-0902-4be0-a9c6-55cc6efd6540",
+            "density": 1.3,
+            "friction": 0.35,
+            "id": "8745347562057121793",
+            "massCenter": {
+              "x": -3.9270005226135,
+              "y": 3.824893951416,
+              "z": -27.39098739624
+            },
+            "material": {
+              "texture": "part_caodi.tga"
+            },
+            "position": {
+              "x": -3.9270005226135,
+              "y": 3.824893951416,
+              "z": -27.39098739624
+            },
+            "restitution": 0.1,
+            "scale": {
+              "x": 9.84685,
+              "y": 0.999984,
+              "z": 29.2997
+            },
+            "size": {
+              "x": 9.8468503952026,
+              "y": 0.99998384714127,
+              "z": 29.299667358398
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "65b036ab-1d6d-4b9c-9bd6-e0e1abb8e74b",
+            "density": 7.7,
+            "friction": 0.44,
+            "id": "8745610032455122945",
+            "massCenter": {
+              "x": -3.9157543182373,
+              "y": 2.1898927688599,
+              "z": -27.271966934204
+            },
+            "material": {
+              "texture": "part_xiushijinshu.tga"
+            },
+            "position": {
+              "x": -3.9157543182373,
+              "y": 2.1898927688599,
+              "z": -27.271966934204
+            },
+            "restitution": 0.05,
+            "scale": {
+              "x": 9.66173,
+              "y": 2.45196,
+              "z": 29.2992
+            },
+            "size": {
+              "x": 9.6617317199707,
+              "y": 2.4519572257996,
+              "z": 29.29921913147
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a221aba4-5eb0-4c34-b0d7-381f125ce6fd",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8745375487549521921",
+            "massCenter": {
+              "x": -3.9057388305664,
+              "y": 3.2779128551483,
+              "z": -42.538623809814
+            },
+            "material": {
+              "texture": "part_luanshi.tga"
+            },
+            "position": {
+              "x": -3.9057388305664,
+              "y": 3.2779128551483,
+              "z": -42.538623809814
+            },
+            "restitution": 0.17,
+            "useAnchor": true,
+            "useGravity": false
+          }
+        ],
+        "id": "8747026278366543873",
+        "name": "Platform2"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "644e13bd-5bd2-4b55-bfbc-091fa7698d29",
+            "density": 1.3,
+            "friction": 0.35,
+            "id": "8745607316644347905",
+            "massCenter": {
+              "x": -4.5300006866455,
+              "y": 4.0838942527771,
+              "z": 16.578001022339
+            },
+            "material": {
+              "texture": "part_caodi.tga"
+            },
+            "position": {
+              "x": -4.5300006866455,
+              "y": 4.0838942527771,
+              "z": 16.578001022339
+            },
+            "restitution": 0.1,
+            "scale": {
+              "x": 11.0968,
+              "y": 0.999988,
+              "z": 22.8188
+            },
+            "size": {
+              "x": 11.096840858459,
+              "y": 0.99998784065247,
+              "z": 22.818799972534
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1fcb010b-ce12-4c20-be6e-aafca6132908",
+            "density": 1.3,
+            "friction": 0.35,
+            "id": "8749709036495044609",
+            "massCenter": {
+              "x": 0.12834499776363,
+              "y": 4.0670809745789,
+              "z": 3.3720915317535
+            },
+            "material": {
+              "texture": "part_caodi.tga"
+            },
+            "position": {
+              "x": 0.12834499776363,
+              "y": 4.0670809745789,
+              "z": 3.3720915317535
+            },
+            "restitution": 0.1,
+            "scale": {
+              "x": 1.74895,
+              "y": 0.999984,
+              "z": 3.57094
+            },
+            "size": {
+              "x": 1.7489491701126,
+              "y": 0.99998360872269,
+              "z": 3.5709366798401
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/5583e6c1-c92f-4957-9637-7a814385f94e",
+            "id": "8748570687555076097",
+            "name": "Enemy",
+            "position": {
+              "x": -4.7594881057739,
+              "y": 4.5838861465454,
+              "z": 18.169059753418
+            },
+            "rotation": {
+              "y": 180
+            }
+          }
+        ],
+        "id": "8747026593201635329",
+        "name": "Platform4"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f1b29e16-2c60-4189-8eb9-4310571d0da1",
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8745612839525466113",
+            "massCenter": {
+              "x": -4.6619992256165,
+              "y": 3.3053789138794,
+              "z": 43.360000610352
+            },
+            "material": {
+              "texture": "part_luanshi.tga"
+            },
+            "name": "Finish",
+            "position": {
+              "x": -4.6619992256165,
+              "y": 3.3053789138794,
+              "z": 43.360000610352
+            },
+            "restitution": 0.17,
+            "scale": {
+              "x": 8.22793,
+              "y": 2.41496,
+              "z": 8.22793
+            },
+            "shape": "3",
+            "size": {
+              "x": 8.2279281616211,
+              "y": 2.4149587154388,
+              "z": 8.2279281616211
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e95acfbf-750d-4dc7-b9f9-a7eb53eaa61c",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8745613323414454273",
+            "massCenter": {
+              "x": -2.1950001716614,
+              "y": 4.2258996963501,
+              "z": 32.00802230835
+            },
+            "material": {
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -2.1950001716614,
+              "y": 4.2258996963501,
+              "z": 32.00802230835
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "68085355-8e4f-4362-abfc-3ab3dffa80c4",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8745613554418188289",
+            "massCenter": {
+              "x": -4.0750002861023,
+              "y": 4.047899723053,
+              "z": 33.710006713867
+            },
+            "material": {
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -4.0750002861023,
+              "y": 4.047899723053,
+              "z": 33.710006713867
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "86e27863-b7f8-4a6e-b48b-859b40b5bc25",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8745613601769472001",
+            "massCenter": {
+              "x": -4.0700001716614,
+              "y": 3.7680368423462,
+              "z": 37.782199859619
+            },
+            "material": {
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -4.0700001716614,
+              "y": 3.7680368423462,
+              "z": 37.782199859619
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "90678c20-6c9e-4511-bca9-f6e134d658d5",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8745613616921903105",
+            "massCenter": {
+              "x": -3.526602268219,
+              "y": 4.1668996810913,
+              "z": 29.933979034424
+            },
+            "material": {
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -3.526602268219,
+              "y": 4.1668996810913,
+              "z": 29.933979034424
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4e04ca00-c00e-4d9f-a586-ab763459c9ee",
+            "density": 4.5,
+            "friction": 0.53,
+            "id": "8745626136967364609",
+            "massCenter": {
+              "x": -2.4939532279968,
+              "y": 4.0078983306885,
+              "z": 35.895820617676
+            },
+            "material": {
+              "texture": "part_eluanshi.tga"
+            },
+            "position": {
+              "x": -2.4939532279968,
+              "y": 4.0078983306885,
+              "z": 35.895820617676
+            },
+            "restitution": 0.17,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/1b8f8daf-b58b-4d11-ad17-759c1cb0c632",
+            "id": "8747036690746277889",
+            "name": "",
+            "position": {
+              "x": -4.3599991798401,
+              "y": 4.512921333313,
+              "z": 42.902000427246
+            }
+          }
+        ],
+        "id": "8747027339098210305",
+        "name": "Platform5"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "469d8499-d7e6-4a27-8651-e63636bcc056",
+            "cameraCollideEnable": false,
+            "canEditPhy": true,
+            "density": 50,
+            "friction": 0.56,
+            "id": "8745348867386703873",
+            "massCenter": {
+              "x": -7.3840007781982,
+              "y": 4.122896194458,
+              "z": -10.680997848511
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "name": "Platform",
+            "position": {
+              "x": -7.3840007781982,
+              "y": 4.122896194458,
+              "z": -10.680997848511
+            },
+            "restitution": 0.07,
+            "scale": {
+              "x": 2.65393,
+              "y": 0.999981,
+              "z": 2.60985
+            },
+            "size": {
+              "x": 2.6539332866669,
+              "y": 0.99998050928116,
+              "z": 2.6098546981812
+            },
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ee1444dc-880a-48b4-b1e9-8b08ec9bfe26",
+            "cameraCollideEnable": false,
+            "canEditPhy": true,
+            "density": 50,
+            "friction": 0.56,
+            "id": "8749706185721036801",
+            "massCenter": {
+              "x": -0.56448835134506,
+              "y": 4.123,
+              "z": -6.069139957428
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "name": "Platform",
+            "position": {
+              "x": -0.56448835134506,
+              "y": 4.123,
+              "z": -6.069139957428
+            },
+            "restitution": 0.07,
+            "scale": {
+              "x": 2.65393,
+              "y": 0.999981,
+              "z": 2.60985
+            },
+            "size": {
+              "x": 2.6539332866669,
+              "y": 0.99998050928116,
+              "z": 2.6098546981812
+            },
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4f83ac52-4165-483c-b49f-b65c24003de6",
+            "cameraCollideEnable": false,
+            "canEditPhy": true,
+            "density": 50,
+            "friction": 0.56,
+            "id": "8749707677109141505",
+            "massCenter": {
+              "x": -7.2224187850952,
+              "y": 4.123,
+              "z": -1.7591407299042
+            },
+            "material": {
+              "texture": "part_huawenban.tga"
+            },
+            "name": "Platform",
+            "position": {
+              "x": -7.2224187850952,
+              "y": 4.123,
+              "z": -1.7591407299042
+            },
+            "restitution": 0.07,
+            "scale": {
+              "x": 2.65393,
+              "y": 0.999981,
+              "z": 2.60985
+            },
+            "size": {
+              "x": 2.6539332866669,
+              "y": 0.99998050928116,
+              "z": 2.6098546981812
+            },
+            "useGravity": false
+          }
+        ],
+        "id": "8747028188682846209",
+        "name": "Platform3 - moving"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_RegionPart",
+            "cfgName": "myplugin/2007acce-d589-4abd-a6a7-36325b3c0872",
+            "id": "8748537616724623361",
+            "position": {
+              "x": -11.147700309753,
+              "y": -9.1806640625,
+              "z": -15.982458114624
+            },
+            "scale": {
+              "x": 60.4769,
+              "y": 0.00999991,
+              "z": 149.634
+            },
+            "size": {
+              "x": 60.476936340332,
+              "y": 0.009999911300838,
+              "z": 149.63354492188
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_RegionPart",
+            "cfgName": "myplugin/6baa1e6f-7b13-4c90-be0c-dea622bea9b6",
+            "id": "8748543060087062529",
+            "name": "Region 2",
+            "position": {
+              "x": -9.2966108322144,
+              "y": -9.2401533126831,
+              "z": -11.212788581848
+            },
+            "scale": {
+              "x": 57.046,
+              "y": 0.108952,
+              "z": 149.996
+            },
+            "size": {
+              "x": 57.046012878418,
+              "y": 0.10895248502493,
+              "z": 149.99589538574
+            }
+          }
+        ],
+        "id": "8748543189576417281",
+        "name": "Fall Area"
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "down": -100,
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "3149b3afa50918c55c4d2b3777ec7143"
+    },
+    "VERSION": "0.22"
+  }
+}

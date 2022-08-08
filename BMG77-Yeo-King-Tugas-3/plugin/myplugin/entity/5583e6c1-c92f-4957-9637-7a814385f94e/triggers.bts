@@ -1,0 +1,9 @@
+ENTITY_CLICK {
+	Damage(damage = 20, entity = $obj1, from = $obj2)
+}
+
+ENTITY_DIE {
+	StartTimer2(interval = 60, time = 1, timer = "") {
+		ReviveEntity(entity = $obj1, pos = { x = -4.7, y = 6, z = 18 })
+	}
+}
